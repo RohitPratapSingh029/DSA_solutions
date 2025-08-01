@@ -24,6 +24,7 @@ Print z
 
 
 ### Solution 
+```
 public class Main {
     public static void main(String[] args) {
         Integer x, y, z;
@@ -43,4 +44,4 @@ public class Main {
 }
 
 ** Answer B)1
-
+```
