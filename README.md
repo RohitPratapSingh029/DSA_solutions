@@ -45,3 +45,39 @@ public class Main {
 
 ** Answer B)1
 ```
+
+##Question 2
+### Question 2
+```
+Integer x
+Set x = 5
+if __ then
+    Print "Positive odd"
+else
+    Print "Other"
+end if
+```
+**Options:**
+- a) x > 0 AND x % 2 = 1
+- b) x > 0 OR x % 2 = 1
+- c) NOT (x > 0)
+- d) x > 0 XOR x % 2 = 1
+
+###Solution 
+```public class Main {
+    public static void main(String[] args) {
+        Integer x = 5;
+
+        if (x > 0 && x % 2 == 1) {
+            System.out.println("Positive odd");
+        } else {
+            System.out.println("Other");
+        }
+    }
+}
+
+**Answer:** a
+```
+
+
+
