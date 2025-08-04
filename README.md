@@ -309,4 +309,79 @@ public class RecursiveMultiply {
 }
 // Output will be 12
 ```
+### Q3. What is the output? 
+function f(n) 
+if n == 0 
+return 0 
+else 
+return n + f(n - 2) 
+print(f(6))
+
+
+###solution
+```
+ public static int f(int n) {
+        if (n == 0) {
+            return 0;
+        } else {
+            return n + f(n - 2);
+        }
+    }
+    public static void main(String[] args) {
+        System.out.println(f(6));  // Output: 12
+    }
+}
+// Output: 12
+```
+### Q4. Output? 
+function fun(x) 
+if x == 0 
+return 
+fun(x - 1) 
+print(x) 
+fun(3) 
+
+### Solution
+```
+    public static void fun(int x) {
+        if (x == 0) {
+            return;
+        }
+        fun(x - 1);  
+        System.out.println(x); 
+    }
+
+    public static void main(String[] args) {
+        fun(3);
+    }
+}
+
+```
+### Q5. Output of the code: 
+function fact(n) 
+if n == 0 
+return 1 
+return n * fact(n - 1) 
+print(fact(4)) 
+### Solution
+```
+    public static int fact(int n) {
+        if (n == 0) {
+            return 1; 
+        }
+        return n * fact(n - 1); 
+    }
+
+    public static void main(String[] args) {
+        System.out.println(fact(4)); 
+    }
+}
+Output will be 24
+```
+
+
+
+
+
+
 
