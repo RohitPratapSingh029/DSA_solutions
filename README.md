@@ -378,6 +378,32 @@ print(fact(4))
 }
 Output will be 24
 ```
+### Q6. What is returned? 
+function fib(n) 
+if n == 0 
+return 0 
+else if n == 1 
+return 1 
+return fib(n - 1) + fib(n - 2) 
+print(fib(6))
+### Solution
+```
+    public static int fib(int n) {
+        if (n == 0) {
+            return 0; 
+        } else if (n == 1) {
+            return 1;  
+        }
+        return fib(n - 1) + fib(n - 2); 
+    }
+
+    public static void main(String[] args) {
+        System.out.println(fib(6));  
+    }
+}
+Output: 8
+```
+
 
 
 
