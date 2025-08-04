@@ -286,7 +286,7 @@ public class RecursiveSum {
         System.out.println(sum(5));
     }
 }
-// Output will be 15
+Output will be 15
 ```
 ### Q2. Predict the result: 
 function mystery(a, b) 
@@ -307,7 +307,7 @@ public class RecursiveMultiply {
         System.out.println(mystery(3, 4)); 
     }
 }
-// Output will be 12
+Output will be 12
 ```
 ### Q3. What is the output? 
 function f(n) 
@@ -328,7 +328,7 @@ print(f(6))
         }
     }
     public static void main(String[] args) {
-        System.out.println(f(6));  // Output: 12
+        System.out.println(f(6)); 
     }
 }
 // Output: 12
