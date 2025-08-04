@@ -61,7 +61,7 @@ end if
 - c) NOT (x > 0)
 - d) x > 0 XOR x % 2 = 1
 
-###Solution 
+###Solution 2
 ```
 public class Main {
     public static void main(String[] args) {
@@ -79,7 +79,7 @@ public class Main {
 ```
 
 
-Soution--3
+### Soluion--3
 ```
 public class Question3 {
     public static void main(String[] args) {
@@ -106,7 +106,7 @@ Two
 Three  
 Other
 ```
-Solution--5
+### Solution--5
 ```
 public class Question5 {
     public static void main(String[] args) {
@@ -124,7 +124,7 @@ public class Question5 {
 Output-- (c) >=
 ```
 
-#Solution --6
+### Solution --6
 ```
 public class Q6 {
     public static void main(String[] args) {
@@ -138,7 +138,7 @@ public class Q6 {
 
 Output -- (b)  15
 ```
-#Solution --7
+### Solution --7
 ```
 public class Q7 {
     public static void main(String[] args) {
@@ -154,7 +154,7 @@ public class Q7 {
 
 Output -- (b) 10
 ```
-#Solution --8
+### Solution --8
 ```
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i++) {
@@ -168,7 +168,7 @@ Output -- (b) 10
 
 Output -- (b) continue
 ```
-#Solution -- 9
+### Solution -- 9
 ```
 public class Q9 {
     public static void main(String[] args) {
@@ -185,7 +185,7 @@ public class Q9 {
 
 Output (a) 30
 ```
-#Solution -- 10
+### Solution -- 10
 ```
 public class Q10 {
     public static void main(String[] args) {
@@ -201,7 +201,7 @@ public class Q10 {
 
 Output -- (c) 6
 ```
-#Solution --11
+#### Solution --11
 ```
 public class Q11 {
     public static void main(String[] args) {
@@ -213,7 +213,7 @@ public class Q11 {
 
 Output -- (a) 18
 ```
-#Solution --12
+#### Solution --12
 ```
 public class Q12 {
     public static void main(String[] args) {
@@ -226,7 +226,7 @@ public class Q12 {
 
 Output --(c) 7
 ```
-#Solution --13
+### Solution --13
 ```
 public class Q13 {
     public static void main(String[] args) {
@@ -238,7 +238,7 @@ public class Q13 {
 
 Output --(d) 0
 ```
-#Solution --14
+### Solution --14
 ```
 public class Q14 {
     public static void main(String[] args) {
@@ -251,7 +251,7 @@ public class Q14 {
 
 Output --(a) 21
 ```
-#Solution --15
+### Solution --15
 ```
 public class Q15 {
     public static void main(String[] args) {
