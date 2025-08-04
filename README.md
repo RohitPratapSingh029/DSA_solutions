@@ -157,7 +157,6 @@ Output -- (b) 10
 
 #Solution --8
 
-public class Q8 {
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i++) {
             if (i == 3) {
