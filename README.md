@@ -264,6 +264,29 @@ public class Q15 {
 Output --(b) 4
 ```
 
+#### Medium-to-high level pseudocode questions on Functions 
+### Category 1: Recursive Functions 
+Q1. What will be the output of the following? 
+function sum(n) 
+if n == 1 
+return 1 
+return n + sum(n - 1) 
+print(sum(5))
+### Solution
+```
 
+public class RecursiveSum {
+    public static int sum(int n) {
+        if (n == 1) {
+            return 1;
+        }
+        return n + sum(n - 1);
+    }
+    public static void main(String[] args) {
+        System.out.println(sum(5));
+    }
+}
+// Output will be 15
+```
 
 
