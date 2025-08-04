@@ -403,7 +403,12 @@ print(fib(6))
 }
 Output: 8
 ```
-
+### Q7. Predict output: 
+function fun(n) 
+if n <= 1 
+return n 
+return fun(n - 1) + fun(n - 3) 
+print(fun(5)) 
 
 
 
