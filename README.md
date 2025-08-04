@@ -1,6 +1,5 @@
 # DSA_solutions
 
-#question
 ### Question 1
 ```
 Integer x, y, z
