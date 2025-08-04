@@ -22,7 +22,7 @@ Print z
 - d) 15
 
 
-### Solution 
+### Solution 1
 ```
 public class Main {
     public static void main(String[] args) {
@@ -45,7 +45,6 @@ public class Main {
 ** Answer B)1
 ```
 
-##Question 2
 ### Question 2
 ```
 Integer x
