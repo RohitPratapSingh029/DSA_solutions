@@ -61,7 +61,7 @@ end if
 - c) NOT (x > 0)
 - d) x > 0 XOR x % 2 = 1
 
-###Solution 2
+### Solution 2
 ```
 public class Main {
     public static void main(String[] args) {
@@ -79,7 +79,7 @@ public class Main {
 ```
 
 
-### Soluion--3
+### Solution--3
 ```
 public class Question3 {
     public static void main(String[] args) {
