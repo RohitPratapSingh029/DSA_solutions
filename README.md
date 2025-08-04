@@ -64,7 +64,8 @@ end if
 - d) x > 0 XOR x % 2 = 1
 
 ###Solution 
-```public class Main {
+```
+public class Main {
     public static void main(String[] args) {
         Integer x = 5;
 
@@ -81,7 +82,7 @@ end if
 
 
 Soution--3
-
+```
 public class Question3 {
     public static void main(String[] args) {
         int n = 2;
@@ -106,9 +107,9 @@ Output-- (b)
 Two  
 Three  
 Other
-
+```
 Solution--5
-
+```
 public class Question5 {
     public static void main(String[] args) {
         int score = 85;
@@ -123,10 +124,10 @@ public class Question5 {
 }
 
 Output-- (c) >=
-
+```
 
 #Solution --6
-
+```
 public class Q6 {
     public static void main(String[] args) {
         int sum = 0;
@@ -138,9 +139,9 @@ public class Q6 {
 }
 
 Output -- (b)  15
-
+```
 #Solution --7
-
+```
 public class Q7 {
     public static void main(String[] args) {
         int sum = 0;
@@ -154,9 +155,9 @@ public class Q7 {
 }
 
 Output -- (b) 10
-
+```
 #Solution --8
-
+```
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i++) {
             if (i == 3) {
@@ -168,9 +169,9 @@ Output -- (b) 10
 }
 
 Output -- (b) continue
-
+```
 #Solution -- 9
-
+```
 public class Q9 {
     public static void main(String[] args) {
         int value = 2;
@@ -185,9 +186,9 @@ public class Q9 {
 
 
 Output (a) 30
-
+```
 #Solution -- 10
-
+```
 public class Q10 {
     public static void main(String[] args) {
         int count = 0;
@@ -201,9 +202,9 @@ public class Q10 {
 }
 
 Output -- (c) 6
-
+```
 #Solution --11
-
+```
 public class Q11 {
     public static void main(String[] args) {
         int x = 5, y = 3;
@@ -213,9 +214,9 @@ public class Q11 {
 }
 
 Output -- (a) 18
-
+```
 #Solution --12
-
+```
 public class Q12 {
     public static void main(String[] args) {
         int x = 11, y = 4;
@@ -226,9 +227,9 @@ public class Q12 {
 
 
 Output --(c) 7
-
+```
 #Solution --13
-
+```
 public class Q13 {
     public static void main(String[] args) {
         int x = 10, y = 4;
@@ -238,9 +239,9 @@ public class Q13 {
 }
 
 Output --(d) 0
-
+```
 #Solution --14
-
+```
 public class Q14 {
     public static void main(String[] args) {
         int a = 2, b = 5;
@@ -251,9 +252,9 @@ public class Q14 {
 
 
 Output --(a) 21
-
+```
 #Solution --15
-
+```
 public class Q15 {
     public static void main(String[] args) {
         int x = 8, y = 3;
@@ -263,7 +264,7 @@ public class Q15 {
 }
 
 Output --(b) 4
-
+```
 
 
 
