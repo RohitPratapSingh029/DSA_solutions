@@ -265,7 +265,7 @@ Output --(b) 4
 ```
 
 #### Medium-to-high level pseudocode questions on Functions 
-### Category 1: Recursive Functions 
+### Category 1: (Recursive Functions) --- 
 Q1. What will be the output of the following? 
 function sum(n) 
 if n == 1 
