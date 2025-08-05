@@ -426,6 +426,98 @@ public class Main {
 Output: 1
 
 ```
+### Q21. What is printed? 
+function modify(x) 
+x = x + 10 
+return x 
+a = 5 
+modify(a) 
+print(a) 
+### Solution
+```
+public class Q21 {
+    public static int modify(int x) {
+        x = x + 10;
+        return x;
+    }
+    public static void main(String[] args) {
+        int a = 5;
+        modify(a);
+        System.out.println(a);  
+    }
+}
+
+Output: 5
+```
+### Q22. Output? 
+function update(arr, i) 
+arr[i] = arr[i] + 5 
+arr = [1, 2, 3] 
+update(arr, 1) 
+print(arr[1]) 
+### Solution
+```
+public class Q22 {
+    public static void update(int[] arr, int i) {
+        arr[i] = arr[i] + 5;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3};
+        update(arr, 1);
+        System.out.println(arr[1]); 
+    }
+}
+Output: 7
+
+```
+
+### Q23. Output of the code: 
+x = 100 
+function check() 
+x = 50 
+print(x) 
+check() 
+print(x)
+### Solution
+```
+    static int x = 100;
+    public static void check() {
+        int x = 50;
+        System.out.println(x); 
+    }
+    public static void main(String[] args) {
+        check();
+        System.out.println(x); 
+    }
+}
+
+Output:50
+       100
+
+``` 
+### Q24. What will be the output? 
+a = 10 
+function test() 
+global a 
+a = a + 5 
+test() 
+print(a)
+### Solution
+```
+    static int a = 10;
+    public static void test() {
+        a = a + 5;
+    }
+    public static void main(String[] args) {
+        test();
+        System.out.println(a);  
+    }
+}
+Output: 15
+```
+
+
 
 
 
