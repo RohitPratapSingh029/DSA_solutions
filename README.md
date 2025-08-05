@@ -633,6 +633,8 @@ outer()
 Output: 2
 ```
 ### Q30. Output? 
+```
+
 x = 10  
 function show() 
     print(x) 
