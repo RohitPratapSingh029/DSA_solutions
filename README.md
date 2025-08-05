@@ -616,6 +616,21 @@ function outer()
 outer() 
  ### Solution
 ```
+    static int x = 1;
+    public static void outer() {
+        int x = 2;
+        class Inner {
+            void inner() {
+                System.out.println(x); 
+            }
+        }
+        new Inner().inner();
+    }
+    public static void main(String[] args) {
+        outer(); 
+    }
+}
+Output: 2
 ```
 ### Q30. Output? 
 x = 10  
@@ -625,6 +640,8 @@ function show()
 show() 
 ### Solution
 ```
+
+
 ```
 
 
