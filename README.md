@@ -516,6 +516,116 @@ print(a)
 }
 Output: 15
 ```
+### Q25. Trace the output: 
+function modify(x) 
+x = x * 2 
+return x 
+x = 4 
+x = modify(x) 
+print(x) 
+### Solution
+```
+public class Q25 {
+    public static int modify(int x) {
+        x = x * 2;
+        return x;
+    }
+    public static void main(String[] args) {
+        int x = 4;
+        x = modify(x);
+        System.out.println(x);  
+    }
+}
+Output: 8
+```
+### Q26. What is printed? 
+x = 5 
+function demo(x) 
+x = x + 1 
+print(x) 
+demo(x) 
+print(x) 
+### Solution
+```
+    public static void demo(int x) {
+        x = x + 1;
+        System.out.println(x);  
+    }
+
+    public static void main(String[] args) {
+        int x = 5;
+        demo(x);
+        System.out.println(x);  
+    }
+}
+Output: 6
+        5
+
+
+```
+### Q27. Predict the output: 
+function add(val) 
+val = val + 10 
+a = 3 
+add(a) 
+print(a) 
+### Solution
+```
+    public static void add(int val) {
+        val = val + 10;
+    }
+
+    public static void main(String[] args) {
+        int a = 3;
+        add(a);
+        System.out.println(a); 
+    }
+}
+Output: 3
+```
+### Q28. What will be the output? 
+function fun(x) 
+y = x + 10 
+return y 
+y = 5 
+z = fun(y) 
+print(y, z)
+### Solution
+```
+    public static int fun(int x) {
+        int y = x + 10;
+        return y;
+    }
+
+    public static void main(String[] args) {
+        int y = 5;
+        int z = fun(y);
+        System.out.println(y + " " + z);
+    }
+}
+
+Output: 5 15
+``` 
+### Q29. Scope analysis – What’s printed? 
+x = 1  
+function outer() 
+    x = 2 
+    function inner() 
+        print(x) 
+    inner() 
+outer() 
+ ### Solution
+```
+```
+### Q30. Output? 
+x = 10  
+function show() 
+    print(x) 
+    x = 20 
+show() 
+### Solution
+```
+```
 
 
 
