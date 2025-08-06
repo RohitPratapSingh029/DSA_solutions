@@ -633,8 +633,6 @@ outer()
 Output: 2
 ```
 ### Q30. Output? 
-```
-
 x = 10  
 function show() 
     print(x) 
@@ -642,9 +640,30 @@ function show()
 show() 
 ### Solution
 ```
-
-
 ```
+### Print pattern using recursion
+### Solution
+```
+public class Main {
+    public static void pattern(int n) {
+        if (n == 0) return;  
+        pattern(n - 1);      
+        for (int i = 0; i < n; i++)
+            System.out.print("*");
+        System.out.println();
+    }
+    public static void main(String[] args) {
+        pattern(4);  
+    }
+}
+Output:
+*
+**
+***
+****
+```
+
+
 
 
 
