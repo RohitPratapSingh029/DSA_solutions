@@ -641,7 +641,7 @@ show()
 ### Solution
 ```
 ```
-### Print pattern using recursion
+### Q.Print pattern using recursion
 ### Solution
 ```
 public class Main {
